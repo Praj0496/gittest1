@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build ID'){
             steps{
-                'Build ID is' = sh "echo $BUILD_ID"
+                'Build ID is' sh "echo $BUILD_ID"
             }
         }
         stage('Result'){
