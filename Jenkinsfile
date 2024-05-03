@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build ID'){
             steps{
-                'Build ID is' sh "echo $BUILD_ID"
+                sh "echo $BUILD_ID"
             }
         }
         stage('Result'){
             steps{
-               'Result is' sh "echo $currentBuild.currentResult"
+                sh "echo $currentBuild.currentResult"
             }
         }
         
