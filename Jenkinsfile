@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World. This is change frfom Gitbash'
+                echo 'Hello World. This is change from Gitbash 2'
             }
         }
         stage('Build ID'){
